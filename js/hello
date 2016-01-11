@@ -1,4 +1,23 @@
 #!/usr/bin/env node
 
 'use strict';
-console.log("hello world")
+
+var c = require("skilstak-colors");
+
+var printPlain = function () {
+  console.log(c.clear + c.rc() + "hello world" + c.x)
+}
+
+var forcepush = function () {
+console.log(c.clear + c.rc() + "han solo is stupid" + c.x)
+
+printPlain()
+
+
+
+
+
+
+
+
+
