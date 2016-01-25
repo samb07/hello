@@ -23,7 +23,7 @@ iconsole.log(Youknowwhativecomefor);
 
 
 printPlain("hello world")
-forcePush("han solo is stupid)
+forcePush("han solo is stupid")
 runAndGetSliced("Luke Skywalkerisfound")
 printBoringLoop("You know what ive come for")
 
