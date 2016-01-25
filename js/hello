@@ -4,15 +4,28 @@
 
 var c = require("skilstak-colors");
 
-var printPlain = function () {
-  console.log(c.clear + c.rc() + "hello world" + c.x)
+var printPlain = function(helloworld) {
+  console.log(c.clear + c.rc() + helloworld + c.x);
 }
 
-var forcepush = function () {
-console.log(c.clear + c.rc() + "han solo is stupid" + c.x)
+var forcePush = function (hansoloisstupid) {
+console.log(c.clear + c.rc() + hansoloisstupid + c.x);
+}
+var runAndGetSliced = function (LukeSkywalkerisfound) {
+console.log(c.clear + c.multi(LukeSkywalkerisfound));
+}                              
+ var printBoringLoop = function (Youknowwhativecomefor) {
+while (true){
+iconsole.log(Youknowwhativecomefor);
+}
+ }
 
-printPlain()
 
+
+printPlain("hello world")
+forcePush("han solo is stupid)
+runAndGetSliced("Luke Skywalkerisfound")
+printBoringLoop("You know what ive come for")
 
 
 
